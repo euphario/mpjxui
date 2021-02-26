@@ -59,8 +59,8 @@ namespace MPXJUI
       //
       CustomFieldContainer customFields = file.getCustomFields();
       CustomField field = customFields.getCustomField(TaskField.TEXT10);
-      field.setAlias("ACtivity_ID");
-      task.setText(10, task.getActivityID())
+      field.setAlias("Activity_ID");
+    //  task.setText(10, task.getActivityID())
 
 
 
